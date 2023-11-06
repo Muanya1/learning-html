@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Chimuanya Agbugba" />
+    <meta name="description" content="Ada multiple business page" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setemi assignment one</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Appliction form</h1>
+      <nav aria-label="breadcrumbs">
+        <ul>
+          <li><a href="./index.html">Biography</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <section id="form">
+      <form action="process_form.php" method="post">
+        <p>Fill in your details</p>
+        <label for="firstName">First-Name:</label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="First name"
+          required
+          autofocus
+        />
+        <label for="Lname">Last-Name:</label>
+        <input
+          type="text"
+          id="Lname"
+          name="Lname"
+          placeholder="Last name"
+          required
+        /><br />
+        <p>
+          <label for="sex">Sex:</label>
+          <select id="sex" name="sex">
+            <option value="">Select sex</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+          </select>
+          <label for="DoB">Birthday:</label>
+          <input type="date" name="Birthday" id="DoB" />
+        </p>
+        <p>
+          <label for="Email">Your email:</label>
+          <input
+            type="email"
+            id="Email"
+            name="Email"
+            placeholder="Enter Your Email Address"
+          />
+          <label for="Edu">Education:</label>
+          <select id="Edu" name="Education">
+            <option value="">Select</option>
+            <option value="Bsc">Bsc</option>
+            <option value="HnD">HnD</option>
+            <option value="OND">OND</option>
+            <option value="Msc">Msc</option>
+            <option value="PHD">PHD</option>
+          </select>
+        </p>
+        <p>
+          <label for="country">Country:</label>
+          <select id="country" name="Country">
+            <option value="">Select</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+          </select>
+          <label for="residence">State of residence:</label>
+          <input
+            type="text"
+            id="residence"
+            name="State of residence"
+            placeholder="Enter your residence"
+            required
+          />
+        </p>
+        <p>
+          <label for="employment">Employment status:</label>
+          <select id="employment" name="Employment status">
+            <option value="">Select</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+          </select>
+          <label for="Phone">Phone number:</label>
+          <input
+            type="number"
+            id="Phone"
+            name="Phone number"
+            placeholder="08055555555"
+            required
+          />
+        </p>
+        <p>
+          <label for="school">Choose school:</label>
+          <select id="school" name="Choose school">
+            <option value="">Select</option>
+            <option value="S.eng">School of engineering</option>
+            <option value="S.data">School of data</option>
+            <option value="S.product">School of product</option>
+          </select>
+          <label for="course">Course of study:</label>
+          <select id="course" name="course of study">
+            <option value="">Select course</option>
+            <option value="f.end">Front end</option>
+            <option value="b.end">Back end</option>
+            <option value="cloud">Cloud engineering</option>
+          </select>
+        </p>
+        <p>
+          <label for="info">How did you hear about us?:</label>
+          <select id="info" name="How did you hear about us">
+            <option value="">Select</option>
+            <option value="fbook">Facebook</option>
+            <option value="x">X</option>
+            <option value="insta">Instagram</option>
+          </select>
+          <label for="scholarship">scholarship/discount code(optional):</label>
+          <input
+            type="number"
+            id="scholarship"
+            name="scholarship/discount code"
+            placeholder="scholarship/student ID"
+            required
+          />
+        </p>
+        <p>
+          By clicking continue, I agree to
+          <a href="https://altschoolafrica.com/terms-and-conditions"
+            >Terms of use</a
+          >
+          and acknowledge that i have read the
+          <a href="https://altschoolafrica.com/privacy-policy">Privacy policy</a
+          >.
+        </p>
+        <button type="submit">Proceed</button>
+      </form>
+    </section>
+    <br />
+    <hr />
+    <footer>
+      <a href="./index.html">Biography</a><br />
+      <a href="#">Back to top</a>
+      <p>&lt;&lt;&copy;Chimuanya Prince,2023&gt;&gt;</p>
+    </footer>
+  </body>
+</html>
